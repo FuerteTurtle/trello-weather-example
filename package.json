@@ -1,0 +1,16 @@
+{
+  "name": "trello-weather-example",
+  "version": "1.0.0",
+  "description": "trello weather powerup",
+  "source": "src/html/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Dave Goodrich",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
