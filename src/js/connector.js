@@ -6,7 +6,7 @@ window.TrelloPowerUp.initialize({
       {
         text: "Open PR",
         callback: function (t) {
-          return t.popupt({
+          return t.popup({
             title: "PR",
             url: "pr.html",
           });
