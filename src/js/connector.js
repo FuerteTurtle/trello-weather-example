@@ -1,6 +1,4 @@
-console.log("Hello World");
-
-window.TrelloPowerUp.initialize({
+TrelloPowerUp.initialize({
   "card-buttons": function (t, options) {
     return [
       {
