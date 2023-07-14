@@ -18,5 +18,8 @@ let trello = TrelloPowerUp.iframe();
 
 window.addEventListener("submit", function (event) {
   event.preventDefault();
-  parseGitHubURL(document.getElementById("github-link").value);
+  console.log(trello.getContext());
+  const { repository, pullRequestNumber, details } = parseGitHubURL(
+    document.getElementById("github-link").value
+  );
 });
